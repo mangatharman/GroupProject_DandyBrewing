@@ -1,0 +1,41 @@
+/*where to find us page*/
+.findus {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.findus h3 {
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(77, 77, 51);
+    padding: 1.3vw;
+}
+
+.findus p {
+    font-size: 1.3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1.5vw;
+}
+
+.findus p a {
+    text-decoration: none;
+    color: black;
+}
+
+.findus p a:hover {
+    color:red;
+    cursor: pointer;
+}
+
+.findus h5 {
+    font-size: 1.8vw;
+    font-family: garamond, sans-serif;
+}
+
+.findus h6 {
+    font-size: 1.5vw;
+    font-family: garamond, sans-serif;
+    margin: 2% auto 2% auto;
+    padding-top: 1.3vw;
+}

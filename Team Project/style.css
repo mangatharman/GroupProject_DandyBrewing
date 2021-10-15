@@ -1,0 +1,356 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body{
+      display: grid;
+      grid-template-areas: 
+        "header header header"
+        "article article ads"
+        "footer footer footer";
+      grid-template-rows: 400px 1fr 60px;
+      grid-template-columns: 0 1fr 0;
+      grid-gap: 10px;
+      height: 100vh;
+      margin: 0;
+  }
+  .myFlex{
+    display: flex;
+    justify-content:center;
+  }
+  .locations{
+    display:flex;
+    justify-content:center;
+  }
+  header, footer, article{
+      padding: 20px;
+  }
+  
+  /*header*/
+  header{
+      background-image: linear-gradient(rgba(26, 13, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Kegs.jpg");
+      background-size:cover;
+      background-position: 20% 30%;
+      background-repeat: no-repeat;
+  }
+  .tastingroom{
+        background-image: linear-gradient(rgba(26, 13, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Beers.jpg");
+      background-size:cover;
+      background-position: 20% 30%;
+      background-repeat: no-repeat;
+  
+  }
+  
+  
+  nav{
+      float:right;
+      margin: 1.5vw 3vw;
+  }
+  
+  nav ul{
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  li{
+      color:white;
+      display: inline;
+      margin:10px;
+      bottom:0px;
+  }
+  
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  a:link {
+      text-decoration: none;
+  }
+    
+  a:visited {
+      text-decoration: none;
+  }
+    
+  a:hover {
+      text-decoration: underline;
+  }
+    
+  a:active {
+      text-decoration: underline;
+  }
+  /* end of header */
+  
+  
+  /*Home Page*/
+  .AboutUs{
+     border-top: 2px solid rgb(77, 77, 51);
+     border-bottom: 2px solid rgb(77, 77, 51);
+     margin: 5% 10% 5% 10%;
+     padding:2em;
+  }
+  
+  .AboutUs p {
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: black;
+     text-align:center;
+     margin-top: 5%;
+     margin-bottom: 5%;
+  }
+  
+  #imgcenter {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 200px;
+     height: 200px;
+  }
+  /*end of home page*/
+  
+  /*beers page*/
+  .Beerstitle{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:2w;
+    text-align:center;
+    font-size:2vw;
+    border-bottom: 2px solid rgb(77, 77, 51);
+    margin-bottom: 5%;
+    }
+  .Beers{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.25vw;
+    margin-bottom:5%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:4%;
+    padding:0.1em;
+    text-align:center;
+    border-bottom: 2px solid rgb(77, 77, 51);
+    }
+  .Beernames {
+    font-size:24px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .Seasons {
+    font-size:18px;
+    text-align:center;
+  }
+  .Beerdesc{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    max-width:75%;
+    margin:auto;
+  }
+  /*end of beers page*/
+  
+  /*where to find us page*/
+  .findus {
+  
+      width:100%;
+  
+      text-align: center;
+  }
+  
+  .findus h3 {
+      font-size: 3vw;
+      font-family: Arial, Helvetica, sans-serif;
+      border-bottom: 2px solid rgb(77, 77, 51);
+      padding: 1.3vw;
+  }
+  
+  .findus p {
+      font-size: 1.3vw;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 1.5vw;
+  }
+  
+  .findus p a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .findus p a:hover {
+      color:red;
+      cursor: pointer;
+  }
+  
+  .findus h5 {
+      font-size: 1.8vw;
+      font-family: garamond, sans-serif;
+  }
+  
+  .findus h6 {
+      font-size: 1.5vw;
+      font-family: garamond, sans-serif;
+      margin: 2% auto 2% auto;
+      padding-top: 1.3vw;
+  }
+  /*end of where to find us page*/
+  
+  /*artist page*/
+  .artist {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  
+  .artist h3 {
+      font-size: 2vw;
+      font-family: Arial, Helvetica, sans-serif;
+      border-bottom: 2px solid rgb(77, 77, 51);
+      text-align: center;
+      padding: 1.3vw;
+      margin-bottom: 5%;
+  }
+  
+  .artist h4 {
+      font-size: 1.8vw;
+      font-family: garamond, sans-serif;
+      border-left: 2px solid rgb(77, 77, 51);
+      padding: 1.2vw;
+  }
+  
+  .artist p {
+      font-size: 1.3vw;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-left: 10%;
+      padding: 1.5vw;
+  }
+  
+  .artist h6 {
+      font-size: 1.5vw;
+      font-family: garamond, sans-serif;
+      margin-left: 10%;
+      margin-bottom: 2%;
+  }
+  
+  .artist h6 a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .artist h6 a:hover {
+      color: red;
+  }
+  /*end of artist page*/
+  
+  /*story page*/
+  
+  .story {
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center;
+  }
+  
+  .story h3 {
+      font-size: 2vw;
+      font-family: Arial, Helvetica, sans-serif;
+      border-bottom: 2px solid rgb(77, 77, 51);
+      padding: 1.3vw;
+      margin-bottom: 5%;
+  }
+  
+  .story h5 {
+      font-size: 1.8vw;
+      font-family: garamond, sans-serif;
+      padding: 1.2vw;
+  }
+  
+  .story p {
+      font-size: 1.3vw;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  /*end of story page*/
+  
+  /*footer*/
+  footer{
+      height:300px;
+      background:rgba(31, 20, 0);
+      padding: 0px;
+  }
+   
+  #socialmedia {
+    height: 80px;
+    background-color: #F0F0F0;
+  }
+   
+  #socialmedia ul {
+    margin: 0px;
+  }
+   
+  #socialmedia ul li {
+    display: inline;
+  }
+   
+  #socialmedia a img {
+    margin-top: 25px;
+    float: center;
+  }
+   
+  footer h1 {
+    font-size: 20px;
+    font-family: garamond;
+    color: #cccccc;
+    margin-top: 80px;
+    text-align: center;
+  }
+   
+  footer h2 {
+    font-size: 18px;
+    font-family: garamond;
+    color: #999999;
+    margin-top: 50px;
+    text-align: center;
+  }
+  /*end of footer */
+  
+  /*top button*/
+  .button img {
+    width: 2vw;
+    height: 2vw;
+  }
+  
+  #topButton {
+    background-color: rgb(77, 77, 51);
+    padding: 1.3vw;
+    color: white;
+    cursor: pointer;
+    padding: 1vw;
+    bottom: 3%;
+    right: 2%;
+    z-index: 99;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+    display: none;
+    position: fixed;
+  }
+  
+  #topButton:hover {
+    background-color: rgba(31, 20, 0);
+    color: #d94f5c;
+  }
+  /*end of top button*/
+   
+   /*grid*/
+   #pageHeader {
+     grid-area: header;
+   }
+   
+   #pageFooter {
+     grid-area: footer;
+   }
+   #mainArticle { 
+     grid-area: article;      
+   }
+  
+  
+  
+  
+  
